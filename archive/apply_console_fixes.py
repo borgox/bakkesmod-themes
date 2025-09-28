@@ -1,7 +1,7 @@
 import json
 import os
 
-# Define all the fixes
+# Define all fixes
 fixes = {
     'themes/neonpulse/neonpulse_light.json': {
         'ImGuiCol_Text': {"a": 1, "r": 0.05, "g": 0.05, "b": 0.1},

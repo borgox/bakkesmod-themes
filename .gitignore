@@ -14,7 +14,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Python
+# Python Stuff
 __pycache__/
 *.py[cod]
 *$py.class
@@ -56,7 +56,7 @@ env/
 *.old
 
 # Scripts that won't be reused
-generate_themes.py
+#generate_themes.py Lets keep this for historical reasons
 
 # Keep the actual theme files and images
 !themes/**/*.json

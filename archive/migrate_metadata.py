@@ -8,8 +8,9 @@ import glob
 import os
 
 def add_autogen_flags():
-    """Add auto-generated flag to non-light variant themes"""
-
+    """Add auto-generated flag to non-light variant themes
+    (A previous version of this file included ONLY light themes, why didnt i make a version for both? Lazy.)"""
+    
     # Grab all JSON themes
     all_themes = glob.glob('themes/*/*.json')
 
