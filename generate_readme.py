@@ -56,6 +56,26 @@ A curated collection of custom themes for BakkesMod, featuring various color sch
    theme_load /themes/cyberpunk/cyberpunk_light
    ```
 
+### 🔄 Making Themes Persistent
+
+To make your theme persist between BakkesMod reloads:
+
+1. **Open** your BakkesMod config file:
+   ```
+   %APPDATA%\\bakkesmod\\bakkesmod\\cfg\\config.cfg
+   ```
+2. **Find** the line containing `bakkesmod_style_theme`
+3. **Edit** the line to point to your desired theme:
+   ```
+   bakkesmod_style_theme "themes/solarflare/solarflare.json" //Theme to use
+   ```
+   Or for themes in the root themes directory:
+   ```
+   bakkesmod_style_theme "/solarflare.json" //Theme to use
+   ```
+
+**Note:** The path defaults from `%APPDATA%\\bakkesmod\\bakkesmod\\data\\themes\\` and a `.json` file path must be provided.
+
 ## 🎭 Available Themes
 
 Each theme may include both light and dark variants. Click the download links below to get the `.json` files directly.
