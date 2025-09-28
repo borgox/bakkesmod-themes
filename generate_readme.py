@@ -121,9 +121,9 @@ Each theme follows this standard theme format:
 ```
 
 You can use either one of:
-- [`/defaults/template/template.json`](defaults/template/template.json) 
-- [`/defaults/template/template_light.json`](defaults/template/template_light.json)
-as a base for your theme.
+- [`/defaults/template/template.json`](defaults/template/template.json) as a base for your theme.
+- [`/defaults/template/template_light.json`](defaults/template/template_light.json) as a light base for your theme.
+
 ## 🎯 Theme Categories
 
 ### 🌙 Dark Themes
