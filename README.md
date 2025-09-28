@@ -24,38 +24,18 @@ A curated collection of custom themes for BakkesMod, featuring various color sch
 
 Each theme may include both light and dark variants. Click the download links below to get the `.json` files directly.
 
-## 🌟 Cyberpunk
-
-**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
-**Description:** A futuristic neon theme with dark backgrounds and vibrant cyberpunk highlights.
-
-### 🌙 **Dark** | <a href="themes/cyberpunk/cyberpunk.json" target="_blank">`cyberpunk.json`</a>
-
-![Cyberpunk](themes/cyberpunk/cyberpunk.png)
-
-----
-
-### ☀️ **Light** | <a href="themes/cyberpunk/cyberpunk_light.json" target="_blank">`cyberpunk_light.json`</a> *(Auto-generated - may need adjustments)*
-
-![Cyberpunk Light](themes/cyberpunk/cyberpunk_light.png)
-
-----
-
-
---------------
-
 ## 🌟 Frostbyte
 
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A cold ice-inspired theme with blue and white tones.
 
-### 🌙 **Dark** | <a href="themes/frostbyte/frostbyte.json" target="_blank">`frostbyte.json`</a>
+### 🌙 **Dark** | [`frostbyte.json`](themes/frostbyte/frostbyte.json)
 
 ![Frostbyte](themes/frostbyte/frostbyte.png)
 
 ----
 
-### ☀️ **Light** | <a href="themes/frostbyte/frostbyte_light.json" target="_blank">`frostbyte_light.json`</a> *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | [`frostbyte_light.json`](themes/frostbyte/frostbyte_light.json) *(Auto-generated - may need adjustments)*
 
 ![Frostbyte Light](themes/frostbyte/frostbyte_light.png)
 
@@ -69,13 +49,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A high-contrast neon theme with strong purple and cyan accents.
 
-### 🌙 **Dark** | <a href="themes/neonpulse/neonpulse.json" target="_blank">`neonpulse.json`</a>
+### 🌙 **Dark** | [`neonpulse.json`](themes/neonpulse/neonpulse.json)
 
 ![Neon Pulse](themes/neonpulse/neonpulse.png)
 
 ----
 
-### ☀️ **Light** | <a href="themes/neonpulse/neonpulse_light.json" target="_blank">`neonpulse_light.json`</a> *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | [`neonpulse_light.json`](themes/neonpulse/neonpulse_light.json) *(Auto-generated - may need adjustments)*
 
 ![Neonpulse Light](themes/neonpulse/neonpulse_light.png)
 
@@ -89,13 +69,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A dark version of the nyanpastel theme
 
-### 🌙 **Dark** | <a href="themes/nyanpastel/nyanpastel.json" target="_blank">`nyanpastel.json`</a>
+### 🌙 **Dark** | [`nyanpastel.json`](themes/nyanpastel/nyanpastel.json)
 
 ![Nyanpastel](themes/nyanpastel/nyanpastel.png)
 
 ----
 
-### ☀️ **Light** | <a href="themes/nyanpastel/nyanpastel_light.json" target="_blank">`nyanpastel_light.json`</a> *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | [`nyanpastel_light.json`](themes/nyanpastel/nyanpastel_light.json) *(Auto-generated - may need adjustments)*
 
 ![Nyan Pastel](themes/nyanpastel/nyanpastel_light.png)
 
@@ -109,13 +89,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A random theme that should be inspired by the Nyan Cat meme and RGB.
 
-### 🌙 **Dark** | <a href="themes/nyanrgb/nyanrgb.json" target="_blank">`nyanrgb.json`</a>
+### 🌙 **Dark** | [`nyanrgb.json`](themes/nyanrgb/nyanrgb.json)
 
 ![Nyan RGB](themes/nyanrgb/nyanrgb.png)
 
 ----
 
-### ☀️ **Light** | <a href="themes/nyanrgb/nyanrgb_light.json" target="_blank">`nyanrgb_light.json`</a> *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | [`nyanrgb_light.json`](themes/nyanrgb/nyanrgb_light.json) *(Auto-generated - may need adjustments)*
 
 ![Nyanrgb Light](themes/nyanrgb/nyanrgb_light.png)
 
@@ -124,18 +104,18 @@ Each theme may include both light and dark variants. Click the download links be
 
 --------------
 
-## 🌟 Nyan Pastel
+## 🌟 Retrowave
 
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** An 80s-inspired vaporwave theme with pink, purple, and turquoise.
 
-### 🌙 **Dark** | <a href="themes/retrowave/retrowave.json" target="_blank">`retrowave.json`</a>
+### 🌙 **Dark** | [`retrowave.json`](themes/retrowave/retrowave.json)
 
-![Nyan Pastel](themes/retrowave/retrowave.png)
+![Retrowave](themes/retrowave/retrowave.png)
 
 ----
 
-### ☀️ **Light** | <a href="themes/retrowave/retrowave_light.json" target="_blank">`retrowave_light.json`</a> *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | [`retrowave_light.json`](themes/retrowave/retrowave_light.json) *(Auto-generated - may need adjustments)*
 
 ![Retrowave Light](themes/retrowave/retrowave_light.png)
 
@@ -149,13 +129,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A fiery theme with warm orange and yellow tones inspired by the sun.
 
-### 🌙 **Dark** | <a href="themes/solarflare/solarflare.json" target="_blank">`solarflare.json`</a>
+### 🌙 **Dark** | [`solarflare.json`](themes/solarflare/solarflare.json)
 
 ![Solar Flare](themes/solarflare/solarflare.png)
 
 ----
 
-### ☀️ **Light** | <a href="themes/solarflare/solarflare_light.json" target="_blank">`solarflare_light.json`</a> *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | [`solarflare_light.json`](themes/solarflare/solarflare_light.json) *(Auto-generated - may need adjustments)*
 
 ![Solarflare Light](themes/solarflare/solarflare_light.png)
 
@@ -172,22 +152,22 @@ Each theme follows this standard theme format:
 
 ```json
 {
-  // Added metadata that bakkesmod doesn't care about
   "metadata": {
     "name": "Your Theme Name",
     "author": "Your Name", 
     "version": "1.0",
     "description": "Theme description"
   },
-  "imgui": { // Bakkesmod ImGUI theme config
-    "ImGuiCol_WindowBg": { "r": 0.1, "g": 0.1, "b": 0.1, "a": 1.0 },
-    // ... other color definitions
+  "imgui": {
+    "ImGuiCol_WindowBg": { "r": 0.1, "g": 0.1, "b": 0.1, "a": 1.0 }
   }
 }
 ```
 
-You can use <a href="defaults/default.json" target="_blank">`/defaults/default.json`</a> as a base for your theme.
-
+You can use either one of:
+- [`/defaults/template/template.json`](defaults/template/template.json) 
+- [`/defaults/template/template_light.json`](defaults/template/template_light.json)
+as a base for your theme.
 ## 🎯 Theme Categories
 
 ### 🌙 Dark Themes
@@ -210,7 +190,7 @@ We welcome contributions! Here's how you can help:
 2. **Create** your theme following our format
 3. **Test** thoroughly with BakkesMod
 4. **Capture** a preview screenshot of your theme in action
-5. **Update** the README.md with your theme information
+5. **Generate** a new README.md with [this script](generate_readme.py)
 6. **Submit** a pull request with clear description
 
 ### Contribution Guidelines
@@ -220,7 +200,7 @@ We welcome contributions! Here's how you can help:
 - Provide both light and dark variants when possible
 - Use descriptive theme names and clear descriptions
 - Test themes extensively before submitting
-- Update README.md with your theme details before submitting
+- Generate an updated README using the provided script
 
 ## 📋 Requirements
 
@@ -243,11 +223,11 @@ This collection is open source. Individual themes may have different licenses - 
 
 ## 🙏 Credits
 
-- **<a href="https://github.com/borgox" target="_blank">borgox</a> | <a href="https://discord.com/users/@borghettoo" target="_blank">@borghettoo</a>** - Theme development and collection curation
+- **[borgox](https://github.com/borgox) | [@borghettoo](https://discord.com/users/@borghettoo)** - Theme development and collection curation
 - **bakkesmod.com** - Platform and default themes
 
 ---
 
 *Made with ❤️ for the BakkesMod community*
 
-**Total Themes:** 7 themes with variants
+**Total Themes:** 6 themes with variants
