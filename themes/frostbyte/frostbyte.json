@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "name": "Frostbyte",
+    "author": "@borgox | @borghettoo",
+    "version": "1.0",
+    "description": "A cold ice-inspired theme with blue and white tones."
+  },
+  "imgui": {
+    "ImGuiCol_Border": {
+      "a": 1,
+      "r": 0.6,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_BorderShadow": {
+      "a": 1,
+      "r": 0.1,
+      "g": 0.2,
+      "b": 0.3
+    },
+    "ImGuiCol_Button": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.5,
+      "b": 0.8
+    },
+    "ImGuiCol_ButtonActive": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_ButtonHovered": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_CheckMark": {
+      "a": 1,
+      "r": 0.9,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "ImGuiCol_ChildBg": {
+      "a": 1,
+      "r": 0.05,
+      "g": 0.08,
+      "b": 0.12
+    },
+    "ImGuiCol_DragDropTarget": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_FrameBg": {
+      "a": 1,
+      "r": 0.1,
+      "g": 0.2,
+      "b": 0.3
+    },
+    "ImGuiCol_FrameBgActive": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_FrameBgHovered": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.6,
+      "b": 0.9
+    },
+    "ImGuiCol_Header": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.5,
+      "b": 0.8
+    },
+    "ImGuiCol_HeaderActive": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_HeaderHovered": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.7,
+      "b": 1.0
+    },
+    "ImGuiCol_MenuBarBg": {
+      "a": 1,
+      "r": 0.05,
+      "g": 0.1,
+      "b": 0.15
+    },
+    "ImGuiCol_ModalWindowDimBg": {
+      "a": 0.6,
+      "r": 0.1,
+      "g": 0.2,
+      "b": 0.3
+    },
+    "ImGuiCol_NavHighlight": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_NavWindowingDimBg": {
+      "a": 0.3,
+      "r": 0.2,
+      "g": 0.4,
+      "b": 0.6
+    },
+    "ImGuiCol_NavWindowingHighlight": {
+      "a": 0.8,
+      "r": 0.3,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_PlotHistogram": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_PlotHistogramHovered": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_PlotLines": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.6,
+      "b": 0.9
+    },
+    "ImGuiCol_PlotLinesHovered": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_PopupBg": {
+      "a": 1,
+      "r": 0.05,
+      "g": 0.1,
+      "b": 0.2
+    },
+    "ImGuiCol_RangeSliderBar": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_ResizeGrip": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_ResizeGripActive": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_ResizeGripHovered": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_ScrollbarBg": {
+      "a": 1,
+      "r": 0.05,
+      "g": 0.08,
+      "b": 0.12
+    },
+    "ImGuiCol_ScrollbarGrab": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.6,
+      "b": 0.9
+    },
+    "ImGuiCol_ScrollbarGrabActive": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_ScrollbarGrabHovered": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_Separator": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_SeparatorActive": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_SeparatorHovered": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_SliderGrab": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_SliderGrabActive": {
+      "a": 1,
+      "r": 0.3,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "ImGuiCol_Tab": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.6,
+      "b": 0.9
+    },
+    "ImGuiCol_TabActive": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.9,
+      "b": 1.0
+    },
+    "ImGuiCol_TabHovered": {
+      "a": 1,
+      "r": 0.4,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "ImGuiCol_TabUnfocused": {
+      "a": 1,
+      "r": 0.1,
+      "g": 0.3,
+      "b": 0.4
+    },
+    "ImGuiCol_TabUnfocusedActive": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.5,
+      "b": 0.7
+    },
+    "ImGuiCol_Text": {
+      "a": 1,
+      "r": 0.9,
+      "g": 0.95,
+      "b": 1.0
+    },
+    "ImGuiCol_TextDisabled": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.55,
+      "b": 0.6
+    },
+    "ImGuiCol_TextSelectedBg": {
+      "a": 1,
+      "r": 0.3,
+      "g": 0.8,
+      "b": 1.0
+    },
+    "ImGuiCol_TitleBg": {
+      "a": 1,
+      "r": 0.1,
+      "g": 0.2,
+      "b": 0.3
+    },
+    "ImGuiCol_TitleBgActive": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.5,
+      "b": 0.8
+    },
+    "ImGuiCol_TitleBgCollapsed": {
+      "a": 1,
+      "r": 0.1,
+      "g": 0.3,
+      "b": 0.4
+    },
+    "ImGuiCol_WindowBg": {
+      "a": 0.95,
+      "r": 0.05,
+      "g": 0.1,
+      "b": 0.15
+    }
+  }
+}
