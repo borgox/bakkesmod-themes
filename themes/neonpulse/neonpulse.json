@@ -3,7 +3,9 @@
     "name": "Neon Pulse",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A high-contrast neon theme with strong purple and cyan accents."
+    "description": "A high-contrast neon theme with strong purple and cyan accents.",
+    "auto_generated": false,
+    "note": "No note specified."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -260,15 +262,15 @@
     },
     "ImGuiCol_Text": {
       "a": 1,
-      "r": 0.9,
+      "r": 0.95,
       "g": 0.95,
       "b": 1.0
     },
     "ImGuiCol_TextDisabled": {
       "a": 1,
-      "r": 0.5,
+      "r": 0.6,
       "g": 0.5,
-      "b": 0.6
+      "b": 0.7
     },
     "ImGuiCol_TextSelectedBg": {
       "a": 1,

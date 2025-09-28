@@ -25,7 +25,8 @@ def get_theme_info(theme_folder_path):
                     'author': theme_data['metadata']['author'],
                     'description': theme_data['metadata'].get('description', ''),
                     'variant': variant,
-                    'theme_folder': os.path.basename(theme_folder_path)
+                    'theme_folder': os.path.basename(theme_folder_path),
+                    'auto_generated': theme_data['metadata'].get('auto_generated', False)
                 })
             except Exception as e:
                 print(f"Error reading {file}: {e}")
@@ -37,7 +38,7 @@ def generate_readme():
     
     readme_content = f"""# 🎨 BakkesMod Theme Collection
 
-A curated collection of custom themes for BakkesMod, featuring various color schemes from dark cyberpunk aesthetics to light pastel designs. Each theme comes in both light and dark variants for maximum customization.
+A curated collection of custom themes for BakkesMod, featuring various color schemes from dark cyberpunk aesthetics to light pastel designs.
 
 *Generated on {datetime.now().strftime('%B %d, %Y')}*
 
@@ -48,12 +49,18 @@ A curated collection of custom themes for BakkesMod, featuring various color sch
    ```
    %APPDATA%\\bakkesmod\\bakkesmod\\data\\themes\\
    ```
-3. **Restart** BakkesMod or reload themes
-4. **Select** your theme from the BakkesMod interface
+3. **Apply** the theme by opening console (F6) and typing:
+   ```
+   theme_load [theme_name]
+   ```
+   For themes in subfolders (like this collection):
+   ```
+   theme_load /themes/cyberpunk/cyberpunk_light
+   ```
 
 ## 🎭 Available Themes
 
-Each theme includes both **light** and **dark** variants. Click the download links below to get the `.json` files directly.
+Each theme may include both light and dark variants. Click the download links below to get the `.json` files directly.
 
 """
 
@@ -72,56 +79,56 @@ Each theme includes both **light** and **dark** variants. Click the download lin
         # Get the main theme info (usually the dark version)
         main_theme = next((t for t in theme_info if t['variant'] == 'dark'), theme_info[0])
         
-        readme_content += f"""### 🌟 {main_theme['name'].replace(' Dark', '').replace(' Light', '')}
+        readme_content += f"""## 🌟 {main_theme['name'].replace(' Dark', '').replace(' Light', '')}
 
 **Author:** {main_theme['author']}  
 **Description:** {main_theme['description']}
 
-| Variant | Preview | Download |
-|---------|---------|----------|
 """
         
-        # Add each variant
+        # Add each variant with your requested format
         for theme in sorted(theme_info, key=lambda x: x['variant']):
             variant_emoji = "🌙" if theme['variant'] == 'dark' else "☀️"
             variant_name = theme['variant'].title()
             
-            readme_content += f"""| {variant_emoji} **{variant_name}** | ![{theme['name']}](themes/{theme['theme_folder']}/{theme['image']}) | [`{theme['filename']}`](themes/{theme['theme_folder']}/{theme['filename']}) |
+            autogen_note = ""
+            if theme['auto_generated']:
+                autogen_note = " *(Auto-generated - may need adjustments)*"
+            
+            readme_content += f"""### {variant_emoji} **{variant_name}** | [`{theme['filename']}`](themes/{theme['theme_folder']}/{theme['filename']}){autogen_note}
+
+![{theme['name']}](themes/{theme['theme_folder']}/{theme['image']})
+
+----
+
 """
         
-        readme_content += "\n"
+        readme_content += "\n--------------\n\n"
     
-    # Add footer with additional information
-    readme_content += f"""---
-
-## 🛠️ Theme Development
+    # Add footer with updated information
+    readme_content += f"""## 🛠️ Theme Development
 
 ### Creating Custom Themes
 
-Each theme follows the standard BakkesMod theme format:
+Each theme follows this standard theme format:
 
 ```json
 {{
+  // Added metadata that bakkesmod doesn't care about
   "metadata": {{
     "name": "Your Theme Name",
-    "author": "Your Name",
+    "author": "Your Name", 
     "version": "1.0",
     "description": "Theme description"
   }},
-  "imgui": {{
+  "imgui": {{ // Bakkesmod ImGUI theme config
     "ImGuiCol_WindowBg": {{ "r": 0.1, "g": 0.1, "b": 0.1, "a": 1.0 }},
     // ... other color definitions
   }}
 }}
 ```
 
-### Generating Previews
-
-Preview images are automatically generated using the `create_previews.py` script:
-
-```bash
-python create_previews.py
-```
+You can use [`/defaults/default.json`](defaults/default.json) as a base for your theme.
 
 ## 🎯 Theme Categories
 
@@ -144,8 +151,9 @@ We welcome contributions! Here's how you can help:
 1. **Fork** this repository
 2. **Create** your theme following our format
 3. **Test** thoroughly with BakkesMod
-4. **Generate** preview images using our script
-5. **Submit** a pull request with clear description
+4. **Capture** a preview screenshot of your theme in action
+5. **Update** the README.md with your theme information
+6. **Submit** a pull request with clear description
 
 ### Contribution Guidelines
 
@@ -154,6 +162,7 @@ We welcome contributions! Here's how you can help:
 - Provide both light and dark variants when possible
 - Use descriptive theme names and clear descriptions
 - Test themes extensively before submitting
+- Update README.md with your theme details before submitting
 
 ## 📋 Requirements
 
@@ -167,7 +176,8 @@ Having problems with a theme?
 1. Check that the theme file is in the correct directory
 2. Ensure BakkesMod is updated to the latest version
 3. Try restarting BakkesMod/Rocket League
-4. Create an issue in this repository with details
+4. Use console command: `theme_load [theme_name]`
+5. Create an issue in this repository with details
 
 ## 📄 License
 
@@ -175,15 +185,14 @@ This collection is open source. Individual themes may have different licenses - 
 
 ## 🙏 Credits
 
-- **@borgox | @borghettoo** - Theme development and collection curation
+- **[borgox](https://github.com/borgox) | [@borghettoo](https://discord.com/users/@borghettoo)** - Theme development and collection curation
 - **bakkesmod.com** - Platform and default themes
-- **Community contributors** - Additional themes and feedback
 
 ---
 
 *Made with ❤️ for the BakkesMod community*
 
-**Total Themes:** {len([f for f in os.listdir(themes_path) if os.path.isdir(os.path.join(themes_path, f))])} themes × 2 variants = {len([f for f in os.listdir(themes_path) if os.path.isdir(os.path.join(themes_path, f))]) * 2} total theme files
+**Total Themes:** {len([f for f in os.listdir(themes_path) if os.path.isdir(os.path.join(themes_path, f))])} themes with variants
 """
 
     # Write README.md

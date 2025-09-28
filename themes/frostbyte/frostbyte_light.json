@@ -3,7 +3,9 @@
     "name": "Frostbyte Light",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A light version of the frostbyte theme"
+    "description": "A light version of the frostbyte theme",
+    "auto_generated": true,
+    "note": "Auto-generated variant - may not work as good as other versions."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -44,9 +46,9 @@
     },
     "ImGuiCol_ChildBg": {
       "a": 1,
-      "r": 0.905,
-      "g": 0.908,
-      "b": 0.912
+      "r": 0.96,
+      "g": 0.98,
+      "b": 1.0
     },
     "ImGuiCol_DragDropTarget": {
       "a": 1,
@@ -260,15 +262,15 @@
     },
     "ImGuiCol_Text": {
       "a": 1,
-      "r": 0.1,
+      "r": 0.05,
       "g": 0.1,
-      "b": 0.1
+      "b": 0.2
     },
     "ImGuiCol_TextDisabled": {
       "a": 1,
-      "r": 0.5,
-      "g": 0.44999999999999996,
-      "b": 0.4
+      "r": 0.3,
+      "g": 0.4,
+      "b": 0.5
     },
     "ImGuiCol_TextSelectedBg": {
       "a": 1,

@@ -3,7 +3,9 @@
     "name": "Solarflare Light",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A light version of the solarflare theme"
+    "description": "A light version of the solarflare theme",
+    "auto_generated": true,
+    "note": "Auto-generated variant - may not work as good as other versions."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -44,9 +46,9 @@
     },
     "ImGuiCol_ChildBg": {
       "a": 1,
-      "r": 0.91,
-      "g": 0.905,
-      "b": 0.902
+      "r": 0.98,
+      "g": 0.96,
+      "b": 0.94
     },
     "ImGuiCol_DragDropTarget": {
       "a": 1,
@@ -260,15 +262,15 @@
     },
     "ImGuiCol_Text": {
       "a": 1,
-      "r": 0.1,
+      "r": 0.15,
       "g": 0.1,
-      "b": 0.19999999999999996
+      "b": 0.05
     },
     "ImGuiCol_TextDisabled": {
       "a": 1,
-      "r": 0.4,
-      "g": 0.5,
-      "b": 0.6
+      "r": 0.5,
+      "g": 0.4,
+      "b": 0.3
     },
     "ImGuiCol_TextSelectedBg": {
       "a": 1,

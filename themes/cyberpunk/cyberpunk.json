@@ -3,7 +3,9 @@
     "name": "Cyberpunk",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A futuristic neon theme with dark backgrounds and vibrant cyberpunk highlights."
+    "description": "A futuristic neon theme with dark backgrounds and vibrant cyberpunk highlights.",
+    "auto_generated": false,
+    "note": "No note specified."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -43,10 +45,10 @@
       "r": 0.2
     },
     "ImGuiCol_ChildBg": {
-      "a": 0.95,
+      "a": 1,
       "b": 0.05,
-      "g": 0.05,
-      "r": 0.05
+      "g": 0.02,
+      "r": 0.02
     },
     "ImGuiCol_DragDropTarget": {
       "a": 0.9,
@@ -260,15 +262,15 @@
     },
     "ImGuiCol_Text": {
       "a": 1,
-      "b": 0.2,
-      "g": 1,
-      "r": 0.2
+      "b": 0.9,
+      "g": 1.0,
+      "r": 0.9
     },
     "ImGuiCol_TextDisabled": {
       "a": 1,
-      "b": 0.3,
-      "g": 0.3,
-      "r": 0.3
+      "b": 0.5,
+      "g": 0.6,
+      "r": 0.5
     },
     "ImGuiCol_TextSelectedBg": {
       "a": 0.5,

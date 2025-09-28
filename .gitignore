@@ -55,10 +55,11 @@ env/
 *.backup
 *.old
 
-# Generated content (can be regenerated)
-README.md
+# Scripts that won't be reused
+generate_themes.py
 
 # Keep the actual theme files and images
 !themes/**/*.json
 !themes/**/*.png
 !defaults/*.json
+!defaults/**/*.json

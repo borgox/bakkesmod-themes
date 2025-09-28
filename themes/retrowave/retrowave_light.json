@@ -3,7 +3,9 @@
     "name": "Retrowave Light",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A light version of the retrowave theme"
+    "description": "A light version of the retrowave theme",
+    "auto_generated": true,
+    "note": "Auto-generated variant - may not work as good as other versions."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -44,9 +46,9 @@
     },
     "ImGuiCol_ChildBg": {
       "a": 1,
-      "r": 0.91,
-      "g": 0.905,
-      "b": 0.915
+      "r": 0.98,
+      "g": 0.95,
+      "b": 0.98
     },
     "ImGuiCol_DragDropTarget": {
       "a": 1,
@@ -261,14 +263,14 @@
     "ImGuiCol_Text": {
       "a": 1,
       "r": 0.1,
-      "g": 0.19999999999999996,
-      "b": 0.1
+      "g": 0.05,
+      "b": 0.15
     },
     "ImGuiCol_TextDisabled": {
       "a": 1,
       "r": 0.4,
-      "g": 0.6,
-      "b": 0.4
+      "g": 0.3,
+      "b": 0.5
     },
     "ImGuiCol_TextSelectedBg": {
       "a": 1,

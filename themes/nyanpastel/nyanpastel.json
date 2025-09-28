@@ -3,7 +3,9 @@
     "name": "Nyanpastel",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A dark version of the nyanpastel theme"
+    "description": "A dark version of the nyanpastel theme",
+    "auto_generated": false,
+    "note": "No note specified."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -44,9 +46,9 @@
     },
     "ImGuiCol_ChildBg": {
       "a": 1,
-      "r": 0.09000000000000001,
-      "g": 0.09200000000000001,
-      "b": 0.095
+      "r": 0.08,
+      "g": 0.08,
+      "b": 0.09
     },
     "ImGuiCol_DragDropTarget": {
       "a": 1,
@@ -260,9 +262,9 @@
     },
     "ImGuiCol_Text": {
       "a": 1,
-      "r": 0.85,
-      "g": 0.85,
-      "b": 0.8
+      "r": 0.9,
+      "g": 0.9,
+      "b": 0.85
     },
     "ImGuiCol_TextDisabled": {
       "a": 1,

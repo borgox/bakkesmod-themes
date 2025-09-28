@@ -3,7 +3,9 @@
     "name": "Nyanrgb Light",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A light version of the nyanrgb theme"
+    "description": "A light version of the nyanrgb theme",
+    "auto_generated": true,
+    "note": "Auto-generated variant - may not work as good as other versions."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -44,9 +46,9 @@
     },
     "ImGuiCol_ChildBg": {
       "a": 1,
-      "r": 0.91,
-      "g": 0.91,
-      "b": 0.91
+      "r": 0.95,
+      "g": 0.95,
+      "b": 0.95
     },
     "ImGuiCol_DragDropTarget": {
       "a": 1,

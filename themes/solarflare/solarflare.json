@@ -3,7 +3,9 @@
     "name": "Solar Flare",
     "author": "@borgox | @borghettoo",
     "version": "1.0",
-    "description": "A fiery theme with warm orange and yellow tones inspired by the sun."
+    "description": "A fiery theme with warm orange and yellow tones inspired by the sun.",
+    "auto_generated": false,
+    "note": "No note specified."
   },
   "imgui": {
     "ImGuiCol_Border": {
@@ -44,9 +46,9 @@
     },
     "ImGuiCol_ChildBg": {
       "a": 1,
-      "r": 0.1,
-      "g": 0.05,
-      "b": 0.02
+      "r": 0.08,
+      "g": 0.03,
+      "b": 0.0
     },
     "ImGuiCol_DragDropTarget": {
       "a": 1,
