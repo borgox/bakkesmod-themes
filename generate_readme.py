@@ -120,8 +120,10 @@ Each theme follows this standard theme format:
 }}
 ```
 
-You can use [`/defaults/default.json`](defaults/default.json) as a base for your theme.
-
+You can use either one of:
+- [`/defaults/template/template.json`](defaults/template/template.json) 
+- [`/defaults/template/template_light.json`](defaults/template/template_light.json)
+as a base for your theme.
 ## 🎯 Theme Categories
 
 ### 🌙 Dark Themes
@@ -144,7 +146,7 @@ We welcome contributions! Here's how you can help:
 2. **Create** your theme following our format
 3. **Test** thoroughly with BakkesMod
 4. **Capture** a preview screenshot of your theme in action
-5. **Update** the README.md with your theme information
+5. **Generate** a new README.md with [this script](generate_readme.py)
 6. **Submit** a pull request with clear description
 
 ### Contribution Guidelines
@@ -154,7 +156,7 @@ We welcome contributions! Here's how you can help:
 - Provide both light and dark variants when possible
 - Use descriptive theme names and clear descriptions
 - Test themes extensively before submitting
-- Update README.md with your theme details before submitting
+- Generate an updated README using the provided script
 
 ## 📋 Requirements
 
