@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 
 def get_theme_info(theme_folder_path):
-    """Extract theme information from JSON files"""
     themes = []
     
     for file in os.listdir(theme_folder_path):
@@ -34,7 +33,6 @@ def get_theme_info(theme_folder_path):
     return themes
 
 def generate_readme():
-    """Generate README.md with theme information and downloads"""
     
     readme_content = f"""# 🎨 BakkesMod Theme Collection
 
@@ -66,7 +64,6 @@ Each theme may include both light and dark variants. Click the download links be
 
     themes_path = "themes"
     
-    # Process each theme folder
     for theme_folder in sorted(os.listdir(themes_path)):
         folder_path = os.path.join(themes_path, theme_folder)
         if not os.path.isdir(folder_path):
@@ -76,7 +73,6 @@ Each theme may include both light and dark variants. Click the download links be
         if not theme_info:
             continue
         
-        # Get the main theme info (usually the dark version)
         main_theme = next((t for t in theme_info if t['variant'] == 'dark'), theme_info[0])
         
         readme_content += f"""## 🌟 {main_theme['name'].replace(' Dark', '').replace(' Light', '')}
@@ -86,7 +82,6 @@ Each theme may include both light and dark variants. Click the download links be
 
 """
         
-        # Add each variant with your requested format
         for theme in sorted(theme_info, key=lambda x: x['variant']):
             variant_emoji = "🌙" if theme['variant'] == 'dark' else "☀️"
             variant_name = theme['variant'].title()
@@ -95,7 +90,7 @@ Each theme may include both light and dark variants. Click the download links be
             if theme['auto_generated']:
                 autogen_note = " *(Auto-generated - may need adjustments)*"
             
-            readme_content += f"""### {variant_emoji} **{variant_name}** | <a href="themes/{theme['theme_folder']}/{theme['filename']}" target="_blank">`{theme['filename']}`</a>{autogen_note}
+            readme_content += f"""### {variant_emoji} **{variant_name}** | [`{theme['filename']}`](themes/{theme['theme_folder']}/{theme['filename']}){autogen_note}
 
 ![{theme['name']}](themes/{theme['theme_folder']}/{theme['image']})
 
@@ -105,7 +100,6 @@ Each theme may include both light and dark variants. Click the download links be
         
         readme_content += "\n--------------\n\n"
     
-    # Add footer with updated information
     readme_content += f"""## 🛠️ Theme Development
 
 ### Creating Custom Themes
@@ -114,21 +108,19 @@ Each theme follows this standard theme format:
 
 ```json
 {{
-  // Added metadata that bakkesmod doesn't care about
   "metadata": {{
     "name": "Your Theme Name",
     "author": "Your Name", 
     "version": "1.0",
     "description": "Theme description"
   }},
-  "imgui": {{ // Bakkesmod ImGUI theme config
-    "ImGuiCol_WindowBg": {{ "r": 0.1, "g": 0.1, "b": 0.1, "a": 1.0 }},
-    // ... other color definitions
+  "imgui": {{
+    "ImGuiCol_WindowBg": {{ "r": 0.1, "g": 0.1, "b": 0.1, "a": 1.0 }}
   }}
 }}
 ```
 
-You can use <a href="defaults/default.json" target="_blank">`/defaults/default.json`</a> as a base for your theme.
+You can use [`/defaults/default.json`](defaults/default.json) as a base for your theme.
 
 ## 🎯 Theme Categories
 
@@ -185,7 +177,7 @@ This collection is open source. Individual themes may have different licenses - 
 
 ## 🙏 Credits
 
-- **<a href="https://github.com/borgox" target="_blank">borgox</a> | <a href="https://discord.com/users/@borghettoo" target="_blank">@borghettoo</a>** - Theme development and collection curation
+- **[borgox](https://github.com/borgox) | [@borghettoo](https://discord.com/users/@borghettoo)** - Theme development and collection curation
 - **bakkesmod.com** - Platform and default themes
 
 ---
@@ -195,7 +187,6 @@ This collection is open source. Individual themes may have different licenses - 
 **Total Themes:** {len([f for f in os.listdir(themes_path) if os.path.isdir(os.path.join(themes_path, f))])} themes with variants
 """
 
-    # Write README.md
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(readme_content)
     
