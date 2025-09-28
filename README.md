@@ -26,7 +26,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Cyberpunk
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A futuristic neon theme with dark backgrounds and vibrant cyberpunk highlights.
 
 ### 🌙 **Dark** | [`cyberpunk.json`](themes/cyberpunk/cyberpunk.json)
@@ -46,7 +46,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Frostbyte
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A cold ice-inspired theme with blue and white tones.
 
 ### 🌙 **Dark** | [`frostbyte.json`](themes/frostbyte/frostbyte.json)
@@ -66,7 +66,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Neon Pulse
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A high-contrast neon theme with strong purple and cyan accents.
 
 ### 🌙 **Dark** | [`neonpulse.json`](themes/neonpulse/neonpulse.json)
@@ -86,7 +86,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Nyanpastel
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A dark version of the nyanpastel theme
 
 ### 🌙 **Dark** | [`nyanpastel.json`](themes/nyanpastel/nyanpastel.json)
@@ -106,7 +106,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Nyan RGB
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A random theme that should be inspired by the Nyan Cat meme and RGB.
 
 ### 🌙 **Dark** | [`nyanrgb.json`](themes/nyanrgb/nyanrgb.json)
@@ -126,7 +126,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Nyan Pastel
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** An 80s-inspired vaporwave theme with pink, purple, and turquoise.
 
 ### 🌙 **Dark** | [`retrowave.json`](themes/retrowave/retrowave.json)
@@ -146,7 +146,7 @@ Each theme may include both light and dark variants. Click the download links be
 
 ## 🌟 Solar Flare
 
-**Author:** @borgox | @borghettoo  
+**Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A fiery theme with warm orange and yellow tones inspired by the sun.
 
 ### 🌙 **Dark** | [`solarflare.json`](themes/solarflare/solarflare.json)
