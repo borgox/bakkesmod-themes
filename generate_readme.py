@@ -95,7 +95,7 @@ Each theme may include both light and dark variants. Click the download links be
             if theme['auto_generated']:
                 autogen_note = " *(Auto-generated - may need adjustments)*"
             
-            readme_content += f"""### {variant_emoji} **{variant_name}** | [`{theme['filename']}`](themes/{theme['theme_folder']}/{theme['filename']}){autogen_note}
+            readme_content += f"""### {variant_emoji} **{variant_name}** | <a href="themes/{theme['theme_folder']}/{theme['filename']}" target="_blank">`{theme['filename']}`</a>{autogen_note}
 
 ![{theme['name']}](themes/{theme['theme_folder']}/{theme['image']})
 
@@ -128,7 +128,7 @@ Each theme follows this standard theme format:
 }}
 ```
 
-You can use [`/defaults/default.json`](defaults/default.json) as a base for your theme.
+You can use <a href="defaults/default.json" target="_blank">`/defaults/default.json`</a> as a base for your theme.
 
 ## 🎯 Theme Categories
 
@@ -185,7 +185,7 @@ This collection is open source. Individual themes may have different licenses - 
 
 ## 🙏 Credits
 
-- **[borgox](https://github.com/borgox) | [@borghettoo](https://discord.com/users/@borghettoo)** - Theme development and collection curation
+- **<a href="https://github.com/borgox" target="_blank">borgox</a> | <a href="https://discord.com/users/@borghettoo" target="_blank">@borghettoo</a>** - Theme development and collection curation
 - **bakkesmod.com** - Platform and default themes
 
 ---

@@ -29,13 +29,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A futuristic neon theme with dark backgrounds and vibrant cyberpunk highlights.
 
-### 🌙 **Dark** | [`cyberpunk.json`](themes/cyberpunk/cyberpunk.json)
+### 🌙 **Dark** | <a href="themes/cyberpunk/cyberpunk.json" target="_blank">`cyberpunk.json`</a>
 
 ![Cyberpunk](themes/cyberpunk/cyberpunk.png)
 
 ----
 
-### ☀️ **Light** | [`cyberpunk_light.json`](themes/cyberpunk/cyberpunk_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/cyberpunk/cyberpunk_light.json" target="_blank">`cyberpunk_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Cyberpunk Light](themes/cyberpunk/cyberpunk_light.png)
 
@@ -49,13 +49,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A cold ice-inspired theme with blue and white tones.
 
-### 🌙 **Dark** | [`frostbyte.json`](themes/frostbyte/frostbyte.json)
+### 🌙 **Dark** | <a href="themes/frostbyte/frostbyte.json" target="_blank">`frostbyte.json`</a>
 
 ![Frostbyte](themes/frostbyte/frostbyte.png)
 
 ----
 
-### ☀️ **Light** | [`frostbyte_light.json`](themes/frostbyte/frostbyte_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/frostbyte/frostbyte_light.json" target="_blank">`frostbyte_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Frostbyte Light](themes/frostbyte/frostbyte_light.png)
 
@@ -69,13 +69,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A high-contrast neon theme with strong purple and cyan accents.
 
-### 🌙 **Dark** | [`neonpulse.json`](themes/neonpulse/neonpulse.json)
+### 🌙 **Dark** | <a href="themes/neonpulse/neonpulse.json" target="_blank">`neonpulse.json`</a>
 
 ![Neon Pulse](themes/neonpulse/neonpulse.png)
 
 ----
 
-### ☀️ **Light** | [`neonpulse_light.json`](themes/neonpulse/neonpulse_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/neonpulse/neonpulse_light.json" target="_blank">`neonpulse_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Neonpulse Light](themes/neonpulse/neonpulse_light.png)
 
@@ -89,13 +89,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A dark version of the nyanpastel theme
 
-### 🌙 **Dark** | [`nyanpastel.json`](themes/nyanpastel/nyanpastel.json)
+### 🌙 **Dark** | <a href="themes/nyanpastel/nyanpastel.json" target="_blank">`nyanpastel.json`</a>
 
 ![Nyanpastel](themes/nyanpastel/nyanpastel.png)
 
 ----
 
-### ☀️ **Light** | [`nyanpastel_light.json`](themes/nyanpastel/nyanpastel_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/nyanpastel/nyanpastel_light.json" target="_blank">`nyanpastel_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Nyan Pastel](themes/nyanpastel/nyanpastel_light.png)
 
@@ -109,13 +109,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A random theme that should be inspired by the Nyan Cat meme and RGB.
 
-### 🌙 **Dark** | [`nyanrgb.json`](themes/nyanrgb/nyanrgb.json)
+### 🌙 **Dark** | <a href="themes/nyanrgb/nyanrgb.json" target="_blank">`nyanrgb.json`</a>
 
 ![Nyan RGB](themes/nyanrgb/nyanrgb.png)
 
 ----
 
-### ☀️ **Light** | [`nyanrgb_light.json`](themes/nyanrgb/nyanrgb_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/nyanrgb/nyanrgb_light.json" target="_blank">`nyanrgb_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Nyanrgb Light](themes/nyanrgb/nyanrgb_light.png)
 
@@ -129,13 +129,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** An 80s-inspired vaporwave theme with pink, purple, and turquoise.
 
-### 🌙 **Dark** | [`retrowave.json`](themes/retrowave/retrowave.json)
+### 🌙 **Dark** | <a href="themes/retrowave/retrowave.json" target="_blank">`retrowave.json`</a>
 
 ![Nyan Pastel](themes/retrowave/retrowave.png)
 
 ----
 
-### ☀️ **Light** | [`retrowave_light.json`](themes/retrowave/retrowave_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/retrowave/retrowave_light.json" target="_blank">`retrowave_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Retrowave Light](themes/retrowave/retrowave_light.png)
 
@@ -149,13 +149,13 @@ Each theme may include both light and dark variants. Click the download links be
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)  
 **Description:** A fiery theme with warm orange and yellow tones inspired by the sun.
 
-### 🌙 **Dark** | [`solarflare.json`](themes/solarflare/solarflare.json)
+### 🌙 **Dark** | <a href="themes/solarflare/solarflare.json" target="_blank">`solarflare.json`</a>
 
 ![Solar Flare](themes/solarflare/solarflare.png)
 
 ----
 
-### ☀️ **Light** | [`solarflare_light.json`](themes/solarflare/solarflare_light.json) *(Auto-generated - may need adjustments)*
+### ☀️ **Light** | <a href="themes/solarflare/solarflare_light.json" target="_blank">`solarflare_light.json`</a> *(Auto-generated - may need adjustments)*
 
 ![Solarflare Light](themes/solarflare/solarflare_light.png)
 
@@ -186,7 +186,7 @@ Each theme follows this standard theme format:
 }
 ```
 
-You can use [`/defaults/default.json`](defaults/default.json) as a base for your theme.
+You can use <a href="defaults/default.json" target="_blank">`/defaults/default.json`</a> as a base for your theme.
 
 ## 🎯 Theme Categories
 
@@ -243,7 +243,7 @@ This collection is open source. Individual themes may have different licenses - 
 
 ## 🙏 Credits
 
-- **[borgox](https://github.com/borgox) | [@borghettoo](https://discord.com/users/@borghettoo)** - Theme development and collection curation
+- **<a href="https://github.com/borgox" target="_blank">borgox</a> | <a href="https://discord.com/users/@borghettoo" target="_blank">@borghettoo</a>** - Theme development and collection curation
 - **bakkesmod.com** - Platform and default themes
 
 ---
