@@ -23,8 +23,13 @@ Each generated theme includes:
 - `random_XXXX.json` / `random_XXXX_light.json` - Theme files
 - `random_XXXX.png` / `random_XXXX_light.png` - Preview images
 
+
+-----------------------------------------------
+
+
 <details>
-<summary>�📦 Installation Instructions</summary>
+## 🎯 Installation Instructions
+<summary>📦 Installation Instructions</summary>
 
 ### Quick Installation
 
@@ -125,7 +130,7 @@ Each theme may include both light and dark variants. **Click to expand** any the
 </details>
 
 <details>
-<summary>� <strong>Kurumi</strong> - A dramatic theme inspired by Kurumi Tokisaki, with black and crimson tones, clock motifs, and a mysterious aura.</summary>
+<summary>🐱 <strong>Kurumi</strong> - A dramatic theme inspired by Kurumi Tokisaki, with black and crimson tones, clock motifs, and a mysterious aura.</summary>
 
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)
 
@@ -196,7 +201,7 @@ Each theme may include both light and dark variants. **Click to expand** any the
 </details>
 
 <details>
-<summary>� <strong>Nyan RGB</strong> - A random theme that should be inspired by the Nyan Cat meme and RGB.</summary>
+<summary>🐱 <strong>Nyan RGB</strong> - A random theme that should be inspired by the Nyan Cat meme and RGB.</summary>
 
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)
 
@@ -256,7 +261,7 @@ Each theme may include both light and dark variants. **Click to expand** any the
 </details>
 
 <details>
-<summary>� <strong>Space</strong> - A cosmic theme with deep blues, purples, and small glowing accents like stars.</summary>
+<summary>💫 <strong>Space</strong> - A cosmic theme with deep blues, purples, and small glowing accents like stars.</summary>
 
 **Author:** [@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)
 

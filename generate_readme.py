@@ -59,8 +59,13 @@ Each generated theme includes:
 - `random_XXXX.json` / `random_XXXX_light.json` - Theme files
 - `random_XXXX.png` / `random_XXXX_light.png` - Preview images
 
+
+-----------------------------------------------
+
+
 <details>
-<summary>�📦 Installation Instructions</summary>
+## 🎯 Installation Instructions
+<summary>📦 Installation Instructions</summary>
 
 ### Quick Installation
 
@@ -139,7 +144,7 @@ Each theme may include both light and dark variants. **Click to expand** any the
         if "cyber" in name_lower or category == 'cyberpunk':
             theme_emoji = "🤖"
         elif "space" in name_lower or "cosmic" in name_lower or category == 'space':
-            theme_emoji = "�"
+            theme_emoji = "💫"
         elif "neon" in name_lower or "pulse" in name_lower or category == 'neon':
             theme_emoji = "⚡"
         elif "retro" in name_lower or "wave" in name_lower or category == 'retro':
@@ -149,7 +154,7 @@ Each theme may include both light and dark variants. **Click to expand** any the
         elif "natural" in name_lower or "nature" in name_lower or category == 'nature':
             theme_emoji = "🌿"
         elif "nyan" in name_lower or "kurumi" in name_lower or category == 'anime':
-            theme_emoji = "�"
+            theme_emoji = "🐱"
         elif "mono" in name_lower or "blue" in name_lower or category == 'monochrome':
             theme_emoji = "⚫"
         elif "solar" in name_lower or "fire" in name_lower or "flare" in name_lower or category == 'fire':
