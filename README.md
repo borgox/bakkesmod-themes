@@ -15,7 +15,7 @@ python theme_randomizer.py
 ### Features:
 - 🎯 **Variant-aware randomization** - Dark themes stay dark, light themes stay light (99% accuracy)
 - 🖼️ **Automatic preview generation** - See exactly how your theme looks before applying
-- � **Optimized transparency** - Windows stay visible and usable (95% opaque guarantee)
+- 🔍 **Optimized transparency** - Windows stay visible and usable (95% opaque guarantee)
 - 🏗️ **Complete theme structure** - Full metadata, proper folder organization
 - 🔄 **Unique IDs** - No duplicate theme names
 
