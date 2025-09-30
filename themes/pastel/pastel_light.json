@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "name": "Pastel Light",
+    "author": "[@borgox](https://github.com/borgox) | [@borghettoo](https://discord.gg/XrqsmAANkC)",
+    "version": "1.0",
+    "description": "A bright and cheerful theme with soft pastel tones for a calm and playful atmosphere.",
+    "auto_generated": false,
+    "note": "Light theme with soft pastel colors"
+  },
+  "imgui": {
+    "ImGuiCol_Border": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_BorderShadow": {
+      "a": 1,
+      "r": 0.9,
+      "g": 0.85,
+      "b": 0.95
+    },
+    "ImGuiCol_Button": {
+      "a": 1,
+      "r": 0.9,
+      "g": 0.8,
+      "b": 0.95
+    },
+    "ImGuiCol_ButtonActive": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_ButtonHovered": {
+      "a": 1,
+      "r": 0.85,
+      "g": 0.75,
+      "b": 0.925
+    },
+    "ImGuiCol_CheckMark": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.6,
+      "b": 0.3
+    },
+    "ImGuiCol_ChildBg": {
+      "a": 1,
+      "r": 0.98,
+      "g": 0.95,
+      "b": 0.99
+    },
+    "ImGuiCol_DragDropTarget": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.5,
+      "b": 0.8
+    },
+    "ImGuiCol_FrameBg": {
+      "a": 1,
+      "r": 0.92,
+      "g": 0.88,
+      "b": 0.96
+    },
+    "ImGuiCol_FrameBgActive": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_FrameBgHovered": {
+      "a": 1,
+      "r": 0.86,
+      "g": 0.79,
+      "b": 0.93
+    },
+    "ImGuiCol_Header": {
+      "a": 1,
+      "r": 0.85,
+      "g": 0.75,
+      "b": 0.92
+    },
+    "ImGuiCol_HeaderActive": {
+      "a": 1,
+      "r": 0.75,
+      "g": 0.65,
+      "b": 0.85
+    },
+    "ImGuiCol_HeaderHovered": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.88
+    },
+    "ImGuiCol_MenuBarBg": {
+      "a": 1,
+      "r": 0.95,
+      "g": 0.92,
+      "b": 0.98
+    },
+    "ImGuiCol_ModalWindowDimBg": {
+      "a": 0.6,
+      "r": 0.8,
+      "g": 0.75,
+      "b": 0.9
+    },
+    "ImGuiCol_NavHighlight": {
+      "a": 1,
+      "r": 0.6,
+      "g": 0.4,
+      "b": 0.8
+    },
+    "ImGuiCol_NavWindowingDimBg": {
+      "a": 0.3,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.85
+    },
+    "ImGuiCol_NavWindowingHighlight": {
+      "a": 0.8,
+      "r": 0.65,
+      "g": 0.5,
+      "b": 0.8
+    },
+    "ImGuiCol_PlotHistogram": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.5,
+      "b": 0.8
+    },
+    "ImGuiCol_PlotHistogramHovered": {
+      "a": 1,
+      "r": 0.6,
+      "g": 0.4,
+      "b": 0.7
+    },
+    "ImGuiCol_PlotLines": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.7,
+      "b": 0.6
+    },
+    "ImGuiCol_PlotLinesHovered": {
+      "a": 1,
+      "r": 0.4,
+      "g": 0.6,
+      "b": 0.5
+    },
+    "ImGuiCol_PopupBg": {
+      "a": 1,
+      "r": 0.96,
+      "g": 0.93,
+      "b": 0.99
+    },
+    "ImGuiCol_RangeSliderBar": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.8
+    },
+    "ImGuiCol_ResizeGrip": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_ResizeGripActive": {
+      "a": 1,
+      "r": 0.6,
+      "g": 0.5,
+      "b": 0.7
+    },
+    "ImGuiCol_ResizeGripHovered": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.8
+    },
+    "ImGuiCol_ScrollbarBg": {
+      "a": 1,
+      "r": 0.95,
+      "g": 0.92,
+      "b": 0.98
+    },
+    "ImGuiCol_ScrollbarGrab": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_ScrollbarGrabActive": {
+      "a": 1,
+      "r": 0.6,
+      "g": 0.5,
+      "b": 0.7
+    },
+    "ImGuiCol_ScrollbarGrabHovered": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.8
+    },
+    "ImGuiCol_Separator": {
+      "a": 1,
+      "r": 0.75,
+      "g": 0.65,
+      "b": 0.85
+    },
+    "ImGuiCol_SeparatorActive": {
+      "a": 1,
+      "r": 0.6,
+      "g": 0.5,
+      "b": 0.7
+    },
+    "ImGuiCol_SeparatorHovered": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.8
+    },
+    "ImGuiCol_SliderGrab": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.8
+    },
+    "ImGuiCol_SliderGrabActive": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.4,
+      "b": 0.6
+    },
+    "ImGuiCol_Tab": {
+      "a": 1,
+      "r": 0.88,
+      "g": 0.8,
+      "b": 0.94
+    },
+    "ImGuiCol_TabActive": {
+      "a": 1,
+      "r": 0.75,
+      "g": 0.65,
+      "b": 0.85
+    },
+    "ImGuiCol_TabHovered": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_TabUnfocused": {
+      "a": 1,
+      "r": 0.9,
+      "g": 0.85,
+      "b": 0.95
+    },
+    "ImGuiCol_TabUnfocusedActive": {
+      "a": 1,
+      "r": 0.82,
+      "g": 0.75,
+      "b": 0.88
+    },
+    "ImGuiCol_Text": {
+      "a": 1,
+      "r": 0.2,
+      "g": 0.15,
+      "b": 0.25
+    },
+    "ImGuiCol_TextDisabled": {
+      "a": 1,
+      "r": 0.5,
+      "g": 0.45,
+      "b": 0.55
+    },
+    "ImGuiCol_TextSelectedBg": {
+      "a": 1,
+      "r": 0.7,
+      "g": 0.6,
+      "b": 0.8
+    },
+    "ImGuiCol_TitleBg": {
+      "a": 1,
+      "r": 0.9,
+      "g": 0.85,
+      "b": 0.95
+    },
+    "ImGuiCol_TitleBgActive": {
+      "a": 1,
+      "r": 0.8,
+      "g": 0.7,
+      "b": 0.9
+    },
+    "ImGuiCol_TitleBgCollapsed": {
+      "a": 1,
+      "r": 0.92,
+      "g": 0.88,
+      "b": 0.96
+    },
+    "ImGuiCol_WindowBg": {
+      "a": 0.95,
+      "r": 0.97,
+      "g": 0.94,
+      "b": 0.99
+    }
+  }
+}
