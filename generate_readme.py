@@ -62,9 +62,8 @@ Each generated theme includes:
 
 -----------------------------------------------
 
-
-<details>
 ## 🎯 Installation Instructions
+<details>
 <summary>📦 Installation Instructions</summary>
 
 ### Quick Installation
